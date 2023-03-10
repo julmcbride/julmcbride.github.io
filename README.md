@@ -1,2 +1,2 @@
 # julmcbride.github.io
-Julie McBride's developer projects portfolio
+Julie McBride's Developer Projects Portfolio
