@@ -11,8 +11,7 @@ export default function Skills() {
             Skills &amp; Tools
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-left md:text-center">
-            Below are some of the skills and tools I've worked with, this is an
-            ever-evolving list!
+            Some of the skills and tools I work with, an ever evolving list!
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

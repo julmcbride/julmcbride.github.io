@@ -97,7 +97,8 @@ export default function Projects() {
           ))}
           <div className="text-base leading-relaxed mx-auto p-4 text-left md:text-center">
             <p className="text-white pb-2">
-              Other programs, organizations, and projects I have worked with:
+              Other programs, organizations, and projects I have worked with and
+              supported:
             </p>
             <p>
               U.S. Environmental Protection Agency (EPA): Greenhouse Gas
@@ -105,15 +106,19 @@ export default function Projects() {
               Methane Outreach Program, Green Power Partnership, Voluntary
               Methane Programs for the Oil and Natural Gas Industry, Natural Gas
               STAR Program, Pollution Prevention, Toxic Release Inventory
-              National Analysis, Report on the Environment, Circular Economy;
-              Occupational Safety and Health Administration (OSHA); West Coast
-              Climate &amp; Materials Managment Forum; Airport Cooperative
-              Research Program; A Better City; PepsiCo Packaging Environmental
-              Tool (PackET); Massachusetts Registry of Motor Vehicles
-              Violations, Investigations and Scheduling, Information and
-              Tracking System (VISITS); Massachusetts Rehabilitation Commission
-              Contracts Management Database; Harvard Law School Program on
-              Corporate Governance
+              National Analysis, Report on the Environment, National Water Reuse
+              Action Plan: Online Platform, Water Reuse Regulations and End-Use
+              Specifications Explorer (REUSExplorer), Trash Free Waters South
+              Atlantic Strategy Tool, National Recycling Strategy Circular
+              Economy Implementation Plan Online Platform; Occupational Safety
+              and Health Administration (OSHA); West Coast Climate &amp;
+              Materials Managment Forum; Airport Cooperative Research Program; A
+              Better City; PepsiCo Beverage Packaging Sustainability Tool;
+              Massachusetts Registry of Motor Vehicles Violations,
+              Investigations and Scheduling, Information and Tracking System
+              (VISITS); Massachusetts Rehabilitation Commission Contracts
+              Management Database; Harvard Law School Program on Corporate
+              Governance
             </p>
           </div>
         </div>
