@@ -10,12 +10,12 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="flex flex-col w-full mb-10">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white md:text-center">
             Featured Recent Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left md:text-center">
             Most projects developed for clients of{" "}
             <a
               className="underline hover:text-white"
@@ -95,18 +95,17 @@ export default function Projects() {
               </div>
             </div>
           ))}
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-2">
-            More programs/organizations/projects I have worked with:
-          </p>
-          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div className="text-base leading-relaxed mx-auto p-4 text-left md:text-center">
+            <p className="text-white pb-2">
+              Other programs, organizations, and projects I have worked with:
+            </p>
             <p>
               U.S. Environmental Protection Agency (EPA): Greenhouse Gas
               Reporting Program, Coalbed Methane Outreach Program, Landfill
               Methane Outreach Program, Green Power Partnership, Voluntary
               Methane Programs for the Oil and Natural Gas Industry, Natural Gas
               STAR Program, Pollution Prevention, Toxic Release Inventory
-              National Analysis, Report on the Environment, Climate Change, A
-              Student's Guide to Global Climate Change, Circular Economy;
+              National Analysis, Report on the Environment, Circular Economy;
               Occupational Safety and Health Administration (OSHA); West Coast
               Climate &amp; Materials Managment Forum; Airport Cooperative
               Research Program; A Better City; PepsiCo Packaging Environmental

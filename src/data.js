@@ -3,7 +3,7 @@ export const projects = [
     title: "Acute Toxicity Estimate (ATE) Calculator",
     subtitle: "JavaScript, React, Calculator",
     description:
-      "An app currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate (ATE) for several exposure routes (oral, dermal and inhalation). Developed components for the user interface, data processing and calculations. To be integrated on OSHA's website soon.",
+      "An app currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate (ATE) for various exposure routes (oral, dermal, and inhalation routes). Developed user interface components, data processing and calculations. To be integrated on OSHA's website soon.",
     image: "./oshaATE.png",
     link: "",
     link2: "",
@@ -25,7 +25,7 @@ export const projects = [
     title: "Greenhouse Gas Inventory Data Explorer",
     subtitle: "JavaScript, Highcharts, SQL",
     description:
-      "A public data portal for the U.S. EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data based on user selections, and dynamically build results charts and tables. Implement new querying capabilities and features, including a map visualization in development to show multi-state views of the data.",
+      "A public data portal for the U.S. EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data based on user selections, and dynamically build results charts and tables. Implement new querying capabilities and features, including a map visualization currently in development to show multi-state views of the data.",
     image: "",
     link: "https://cfpub.epa.gov/ghgdata/inventoryexplorer/",
     link2: "",
@@ -49,7 +49,7 @@ export const projects = [
     title: "EPEAT Benefits Calculator",
     subtitle: "JavaScript, Calculator",
     description:
-      "An app for the Global Electronics Council that enables purchasers to measure and report the environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle models, developed the user interface and data processing to calculate/aggregate results.",
+      "An app for the Global Electronics Council that enables purchasers to measure and report  environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle models, developed the user interface and data processing to calculate and aggregate results.",
     image: "",
     link: "https://epeat.net/calculators",
     link2:
@@ -61,7 +61,7 @@ export const projects = [
     title: "How's My Waterway",
     subtitle: "JavaScript, React",
     description:
-      "A project with the U.S. EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA. Supported the development team on building user interface components and front-end testing.",
+      "A project with the U.S. EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA. Supported the development team on development of user interface components and front-end testing.",
     image: "",
     link: "https://mywaterway.epa.gov",
     link2: "",
@@ -72,7 +72,7 @@ export const projects = [
     title: "Enforcement and Compliance History Online",
     subtitle: "JavaScript, PHP, Data Visualization",
     description:
-      "A project with the U.S. EPA, ECHO is used to search facilities to assess compliance with environmental regulations. Supported the development team on building user interface components, writing code to process data for search and reports, and refactor legacy code for mobile and accessibility improvements.",
+      "A project with the U.S. EPA, ECHO is used to search facilities to assess compliance with environmental regulations. Supported the development team on translating designs to code, wrote code to process data for searches and reports, refactored legacy code for mobile and accessibility improvements.",
     image: "",
     link: "https://echo.epa.gov/",
     link2: "",

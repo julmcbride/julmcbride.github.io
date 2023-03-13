@@ -6,11 +6,11 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-5">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+        <div className="mb-5 md:text-center">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 md:text-center">
             Skills &amp; Tools
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-left md:text-center">
             Below are some of the skills and tools I have worked with, this is
             an ever-evolving list!
           </p>
@@ -27,6 +27,9 @@ export default function Skills() {
             </div>
           ))}
         </div>
+        <p className="text-sm text-center text-gray-500 mx-auto mt-8">
+          &copy; JULIE MCBRIDE 2023
+        </p>
       </div>
     </section>
   );
