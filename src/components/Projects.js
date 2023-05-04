@@ -30,7 +30,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <div className="sm:w-1/2 w-100 p-4" key={project.name}>
+            <div className="md:w-1/2 w-100 p-4" key={project.name}>
               <div className="flex relative">
                 <div className="px-4 py-5 relative w-full border-4 border-gray-800 bg-gray-900">
                   {" "}
