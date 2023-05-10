@@ -10,8 +10,9 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm a developer based in Boston, MA specializing in front-end
-            development. I'm interested in making data more accessible and
-            understandable through good user interface design and development.
+            development. I currently work with an environmental consulting firm
+            and am interested in making data more accessible and understandable
+            through good user interface design and development.
           </p>
           <div className="flex justify-center">
             {/*<a

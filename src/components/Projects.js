@@ -15,8 +15,8 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white md:text-center">
             Featured Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left md:text-center">
-            Most projects developed for clients of{" "}
+          {/*<p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left md:text-center">
+            Most projects developed with {" "}
             <a
               className="underline hover:text-white"
               href="http://www.erg.com/"
@@ -24,9 +24,8 @@ export default function Projects() {
               rel="noreferrer"
             >
               ERG
-            </a>
-            , the consulting firm I work with.
-          </p>
+            </a>.
+  </p>*/}
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
