@@ -105,7 +105,7 @@ export default function Projects() {
               Reporting Program, Coalbed Methane Outreach Program, Landfill
               Methane Outreach Program, Green Power Partnership, Voluntary
               Methane Programs for the Oil and Natural Gas Industry, Natural Gas
-              STAR Program, Pollution Prevention, Toxic Release Inventory
+              STAR Program, Pollution Prevention (P2), Toxic Release Inventory
               National Analysis, Report on the Environment, National Water Reuse
               Action Plan: Online Platform, Water Reuse Regulations and End-Use
               Specifications Explorer (REUSExplorer), Trash Free Waters South
