@@ -3,9 +3,9 @@ export const projects = [
     title: "Acute Toxicity Estimate (ATE) Calculator",
     subtitle: "JavaScript, React, Calculator",
     description:
-      "An calculator application currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate (ATE) for various exposure routes (oral, dermal, and inhalation routes). Developed user interface components, data processing and calculations. To be integrated on OSHA's website.",
+      "A calculator application currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for various exposure routes (oral, dermal, and inhalation routes). Developed user interface components and wrote code to process data and program calculations.",
     image: "./oshaATE.png",
-    link: "",
+    link: "https://github.com/Eastern-Research-Group/OSHAATE/tree/feature/refactor-common",
     link2: "",
     icon: "calculator",
     name: "oshaate",
