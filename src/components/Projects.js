@@ -25,7 +25,7 @@ export default function Projects() {
             >
               ERG
             </a>
-            , where I am a senior front-end developer.
+            , the consulting firm I work with.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -98,7 +98,7 @@ export default function Projects() {
                           rel="noreferrer"
                           className="underline hover:text-white"
                         >
-                          Code
+                          Project code
                         </a>
                       </>
                     )}
@@ -109,8 +109,7 @@ export default function Projects() {
           ))}
           <div className="text-base leading-relaxed mx-auto p-4 text-left md:text-center">
             <p className="text-white pb-2">
-              Other programs, organizations, and projects I have worked with and
-              supported recently:
+              Other programs, organizations, and projects I have supported:
             </p>
             <p>
               U.S. Environmental Protection Agency (EPA): Environmentally
