@@ -61,7 +61,7 @@ export default function Projects() {
                         Project site
                       </a>
                     )}
-                    {project.name === "newr" && (
+                    {/*{project.name === "newr" && (
                       <>
                         {" "}
                         |{" "}
@@ -74,7 +74,7 @@ export default function Projects() {
                           Detail
                         </a>
                       </>
-                    )}
+                    )}*/}
                     {project.name === "epeat" && (
                       <>
                         {" "}
@@ -111,24 +111,25 @@ export default function Projects() {
               Other programs, organizations, and projects I have supported:
             </p>
             <p>
-              U.S. Environmental Protection Agency (EPA): Environmentally
-              Preferable Purchasing Program, Greenhouse Gas Reporting Program,
-              Coalbed Methane Outreach Program, Landfill Methane Outreach
-              Program, Green Power Partnership, Voluntary Methane Programs for
-              the Oil and Natural Gas Industry, Pollution Prevention (P2), Toxic
-              Release Inventory National Analysis, Report on the Environment,
-              National Water Reuse Action Plan, Regulations and End-Use
-              Specifications Explorer (REUSExplorer), Trash Free Waters South
-              Atlantic Strategy Project Tracker, National Recycling Strategy
-              Circular Economy Implementation Plan, A Student's Guide to Global
-              Climate Change; Occupational Safety and Health Administration
-              (OSHA); West Coast Climate &amp; Materials Managment Forum;
-              Airport Cooperative Research Program; A Better City; PepsiCo
-              Beverage Packaging Sustainability Tool; Massachusetts Registry of
-              Motor Vehicles Violations, Investigations and Scheduling,
-              Information and Tracking System (VISITS); Massachusetts
-              Rehabilitation Commission Contracts Management Database; Harvard
-              Law School Program on Corporate Governance
+              {/*NEW: EPA Environmentally Preferable Purchasing Program*/}
+              U.S. Environmental Protection Agency (EPA): Report on the
+              Environment, Greenhouse Gas Reporting Program, Coalbed Methane
+              Outreach Program, Landfill Methane Outreach Program, Green Power
+              Partnership, Voluntary Methane Programs for the Oil and Natural
+              Gas Industry, Pollution Prevention (P2), Toxic Release Inventory
+              National Analysis, National Water Reuse Action Plan, Regulations
+              and End-Use Specifications Explorer (REUSExplorer), Trash Free
+              Waters South Atlantic Strategy Project Tracker, National Recycling
+              Strategy Circular Economy Implementation Plan, A Student's Guide
+              to Global Climate Change; U.S. Department of Labor Occupational
+              Safety and Health Administration (OSHA); West Coast Climate &amp;
+              Materials Managment Forum; Airport Cooperative Research Program; A
+              Better City; PepsiCo Beverage Packaging Sustainability Tool;
+              Massachusetts Registry of Motor Vehicles Violations,
+              Investigations and Scheduling, Information and Tracking System
+              (VISITS); Massachusetts Rehabilitation Commission (MRC) Contracts
+              Management Database; Harvard Law School Program on Corporate
+              Governance
             </p>
           </div>
         </div>

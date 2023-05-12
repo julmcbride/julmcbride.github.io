@@ -1,20 +1,9 @@
 export const projects = [
   {
-    title: "Acute Toxicity Estimate (ATE) Calculator",
-    subtitle: "JavaScript, React, Calculator",
-    description:
-      "A calculator application currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for various exposure routes (oral, dermal, and inhalation routes). Developed user interface components and wrote code to process data and program calculations.",
-    image: "./oshaATE.png",
-    link: "https://github.com/Eastern-Research-Group/OSHAATE/tree/feature/refactor-common",
-    link2: "",
-    icon: "calculator",
-    name: "oshaate",
-  },
-  {
     title: "Climate Change Indicators in the U.S.",
-    subtitle: "JavaScript, Highcharts",
+    subtitle: "JavaScript, Highcharts, Data Visualization",
     description:
-      "A project currently in development for the U.S. Environmental Protection Agency (EPA) which partners with over 50 data contributors to compile a key set of indicators. Developed process to dynamically build nearly 100 charts of various types from the data to make web updates more efficient. To be integrated on EPA's website.",
+      "A project in development for the U.S. Environmental Protection Agency (EPA) which partners with over 50 data contributors to compile a key set of indicators. Developed process to dynamically build 100 charts of various types from the data to make web updates more scalable and efficient. To be integrated on EPA's website soon.",
     image: "",
     link: "",
     link2: "",
@@ -22,10 +11,21 @@ export const projects = [
     name: "ccindicators",
   },
   {
+    title: "Acute Toxicity Estimate (ATE) Calculator",
+    subtitle: "JavaScript, React, Calculator",
+    description:
+      "A calculator app currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for various exposure routes (oral, dermal, and inhalation routes). Developed user interface components and wrote code to process data and program calculations.",
+    image: "./oshaATE.png",
+    link: "https://github.com/Eastern-Research-Group/OSHAATE/tree/feature/refactor-common",
+    link2: "",
+    icon: "calculator",
+    name: "oshaate",
+  },
+  {
     title: "Greenhouse Gas Inventory Data Explorer",
     subtitle: "JavaScript, Highcharts, SQL",
     description:
-      "A public data portal for the U.S. EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data based on user selections, and dynamically build results charts and tables. Implement new querying capabilities and features, including a map visualization currently in development to show multi-state views of the data.",
+      "A public data portal for the U.S. EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data and dynamically build charts and tables based on user selections. Implement code improvements, new querying capabilities, and a map visualization currently in development to show multi-state views of the data.",
     image: "",
     link: "https://cfpub.epa.gov/ghgdata/inventoryexplorer/",
     link2: "",
@@ -49,7 +49,7 @@ export const projects = [
     title: "EPEAT Benefits Calculator",
     subtitle: "JavaScript, Calculator",
     description:
-      "An app for the Global Electronics Council that enables purchasers to measure and report  environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle models, developed the user interface and data processing to calculate and aggregate results.",
+      "A calculator app for the Global Electronics Council that enables purchasers to measure and report  environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle models, developed the user interface and data processing to calculate/aggregate results.",
     image: "",
     link: "https://epeat.net/calculators",
     link2:
@@ -61,7 +61,7 @@ export const projects = [
     title: "How's My Waterway",
     subtitle: "JavaScript, React",
     description:
-      "A project with the U.S. EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA. Supported the development team on development of user interface components and front-end testing.",
+      "A project with the U.S. EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA. Supported the development team building user interface components and with front-end testing.",
     image: "",
     link: "https://mywaterway.epa.gov",
     link2: "",
@@ -72,7 +72,7 @@ export const projects = [
     title: "Enforcement and Compliance History Online",
     subtitle: "JavaScript, PHP, Data Visualization",
     description:
-      "A project with the U.S. EPA, ECHO is used to search facilities to assess compliance with environmental regulations. Supported the development team on translating designs to code, wrote code to process data for searches and reports, refactored legacy code for mobile and accessibility improvements.",
+      "A project with the U.S. EPA, ECHO is used to search facilities to assess compliance with environmental regulations. Translated designs to web code, implemented mobile and accessibility improvements, wrote code to process data for search forms and reports.",
     image: "",
     link: "https://echo.epa.gov/",
     link2: "",
@@ -83,7 +83,7 @@ export const projects = [
     title: "Friends of Spy Pond Park",
     subtitle: "Website Design/Development",
     description:
-      "A volunteer project for a local non-profit organization that supports the preservation and enhancement of Spy Pond Park and Spy Pond as natural and community resources in Arlington, Massachusetts. Refactored FSPP's website to modernize the design, improve for mobile, and optimize code for maintenance.",
+      "A volunteer project for a non-profit organization that supports the preservation and enhancement of Spy Pond Park and Spy Pond. Refactored FSPP's website to modernize the design, make responsive, and optimize the code for maintenance.",
     image: "",
     link: "https://friendsofspypondpark.org/",
     link2: "",
