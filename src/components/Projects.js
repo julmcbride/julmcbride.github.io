@@ -61,20 +61,6 @@ export default function Projects() {
                         Project site
                       </a>
                     )}
-                    {project.name === "epeat" && (
-                      <>
-                        {" "}
-                        |{" "}
-                        <a
-                          href={project.link2}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="underline hover:text-white"
-                        >
-                          User Guide
-                        </a>
-                      </>
-                    )}
                     {project.name === "oshaate" && (
                       <>
                         <a
