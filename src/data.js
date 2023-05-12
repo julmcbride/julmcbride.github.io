@@ -14,7 +14,7 @@ export const projects = [
     title: "Acute Toxicity Estimate (ATE) Calculator",
     subtitle: "JavaScript, React, Calculator",
     description:
-      "A calculator app currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for various exposure routes (oral, dermal, and inhalation routes). Developed user interface components and wrote code to process data and program calculations.",
+      "A calculator app currently in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for various exposure routes (oral, dermal, and inhalation routes). Developed UI components and wrote code to process input data and program calculations.",
     image: "./oshaATE.png",
     link: "https://github.com/Eastern-Research-Group/OSHAATE/tree/feature/refactor-common",
     link2: "",
@@ -25,7 +25,7 @@ export const projects = [
     title: "Greenhouse Gas Inventory Data Explorer",
     subtitle: "JavaScript, Highcharts, SQL",
     description:
-      "A public data portal for the U.S. EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data and dynamically build charts and tables based on user selections. Implement code improvements, new querying capabilities, and a map visualization currently in development to show multi-state views of the data.",
+      "A public data portal for EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data and dynamically build charts and tables based on user selections. Implement code improvements, new querying capabilities, and a map visualization currently in development to show multi-state views of the data.",
     image: "",
     link: "https://cfpub.epa.gov/ghgdata/inventoryexplorer/",
     link2: "",
@@ -37,7 +37,7 @@ export const projects = [
       "NEWR - Non-potable Environmental and Economic Water Reuse Calculator",
     subtitle: "JavaScript, React, Calculator",
     description:
-      "An app developed for the U.S. EPA, NEWR is a tool for screening-level assessments of source water options for any urban building location across the U.S. considering onsite non-potable reuse. Based on life cycle models, developed components for the user interface, data processing, calculations and results.",
+      "An app developed for EPA, NEWR is a tool for screening-level assessments of source water options for any urban building location across the U.S. considering onsite non-potable reuse. Based on life cycle models, developed components for the user interface, data processing, calculations and results charts.",
     image: "",
     link: "https://www.epa.gov/sites/default/files/widgets/newr-calculator/index.html",
     link2:
@@ -61,7 +61,7 @@ export const projects = [
     title: "How's My Waterway",
     subtitle: "JavaScript, React",
     description:
-      "A project with the U.S. EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA. Supported the development team building user interface components and with front-end testing.",
+      "A project with the EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to EPA. Supported the development team with building UI components and  front-end testing.",
     image: "",
     link: "https://mywaterway.epa.gov",
     link2: "",
@@ -83,7 +83,7 @@ export const projects = [
     title: "Friends of Spy Pond Park",
     subtitle: "Website Design/Development",
     description:
-      "A volunteer project for a non-profit organization that supports the preservation and enhancement of Spy Pond Park and Spy Pond. Refactored FSPP's website to modernize the design, make responsive, and optimize the code for maintenance.",
+      "A volunteer project for a non-profit organization that supports the preservation and enhancement of Spy Pond Park and Spy Pond. Refactored FSPP's website to modernize the design, upgraded and improved the code for more efficient maintenance.",
     image: "",
     link: "https://friendsofspypondpark.org/",
     link2: "",

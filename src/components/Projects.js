@@ -16,7 +16,7 @@ export default function Projects() {
             Featured Projects
           </h1>
           {/*<p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left md:text-center">
-            Most projects developed with {" "}
+            Most projects developed with{" "}
             <a
               className="underline hover:text-white"
               href="http://www.erg.com/"
@@ -61,20 +61,6 @@ export default function Projects() {
                         Project site
                       </a>
                     )}
-                    {/*{project.name === "newr" && (
-                      <>
-                        {" "}
-                        |{" "}
-                        <a
-                          href={project.link2}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="underline hover:text-white"
-                        >
-                          Detail
-                        </a>
-                      </>
-                    )}*/}
                     {project.name === "epeat" && (
                       <>
                         {" "}
@@ -111,25 +97,25 @@ export default function Projects() {
               Other programs, organizations, and projects I have supported:
             </p>
             <p>
-              {/*NEW: EPA Environmentally Preferable Purchasing Program*/}
-              U.S. Environmental Protection Agency (EPA): Report on the
-              Environment, Greenhouse Gas Reporting Program, Coalbed Methane
-              Outreach Program, Landfill Methane Outreach Program, Green Power
+              U.S. Environmental Protection Agency (EPA): Environmentally
+              Preferable Purchasing (EPP) Program, Report on the Environment,
+              Greenhouse Gas Reporting Program, Coalbed Methane Outreach
+              Program, Landfill Methane Outreach Program, Green Power
               Partnership, Voluntary Methane Programs for the Oil and Natural
               Gas Industry, Pollution Prevention (P2), Toxic Release Inventory
               National Analysis, National Water Reuse Action Plan, Regulations
               and End-Use Specifications Explorer (REUSExplorer), Trash Free
               Waters South Atlantic Strategy Project Tracker, National Recycling
-              Strategy Circular Economy Implementation Plan, A Student's Guide
-              to Global Climate Change; U.S. Department of Labor Occupational
-              Safety and Health Administration (OSHA); West Coast Climate &amp;
-              Materials Managment Forum; Airport Cooperative Research Program; A
-              Better City; PepsiCo Beverage Packaging Sustainability Tool;
-              Massachusetts Registry of Motor Vehicles Violations,
-              Investigations and Scheduling, Information and Tracking System
-              (VISITS); Massachusetts Rehabilitation Commission (MRC) Contracts
-              Management Database; Harvard Law School Program on Corporate
-              Governance
+              Strategy Circular Economy Implementation Plan, Climate Change, A
+              Student's Guide to Global Climate Change; U.S. Department of Labor
+              Occupational Safety and Health Administration (OSHA); West Coast
+              Climate &amp; Materials Managment Forum; Airport Cooperative
+              Research Program; A Better City; PepsiCo Beverage Packaging
+              Sustainability Tool; Massachusetts Registry of Motor Vehicles
+              Violations, Investigations and Scheduling, Information and
+              Tracking System (VISITS); Massachusetts Rehabilitation Commission
+              (MRC) Contracts Management Database; Eastern Research Group, Inc.
+              (ERG); Harvard Law School Program on Corporate Governance
             </p>
           </div>
         </div>
