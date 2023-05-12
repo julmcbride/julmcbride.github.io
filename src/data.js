@@ -37,7 +37,7 @@ export const projects = [
       "NEWR - Non-potable Environmental and Economic Water Reuse Calculator",
     subtitle: "JavaScript, React, Calculator",
     description:
-      "An app developed for EPA, NEWR is a tool for screening-level assessments of source water options for any urban building location across the U.S. considering onsite non-potable reuse. Based on life cycle models, developed components for the user interface, data processing, calculations and results charts.",
+      "An app developed for EPA, NEWR is a tool for screening-level assessments of source water options for any urban building location across the U.S. considering onsite non-potable reuse. Based on life cycle assessment models, developed components for the user interface, data processing, calculations and results charts.",
     image: "",
     link: "https://www.epa.gov/sites/default/files/widgets/newr-calculator/index.html",
     link2:
@@ -49,7 +49,7 @@ export const projects = [
     title: "EPEAT Benefits Calculator",
     subtitle: "JavaScript, Calculator",
     description:
-      "A calculator app for the Global Electronics Council that enables purchasers to measure and report  environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle models, developed the user interface and data processing to calculate/aggregate results.",
+      "A calculator app for the Global Electronics Council that enables purchasers to measure and report  environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle assessment models, developed the UI and data processing to calculate/aggregate results.",
     image: "",
     link: "https://epeat.net/calculators",
     link2:
