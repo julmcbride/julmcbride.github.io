@@ -52,17 +52,21 @@ export default function Projects() {
                   <p className="leading-relaxed text-left">
                     {project.description}{" "}
                     {project.name !== "oshaate" && project.link !== "" && (
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-white hover:underline"
-                      >
-                        Project site
-                      </a>
+                      <>
+                        <br />{" "}
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-white hover:underline"
+                        >
+                          Project site
+                        </a>
+                      </>
                     )}
                     {project.name === "oshaate" && (
                       <>
+                        <br />
                         <a
                           href={project.link}
                           target="_blank"
