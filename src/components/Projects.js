@@ -56,7 +56,7 @@ export default function Projects() {
                         href={project.link}
                         target="_blank"
                         rel="noreferrer"
-                        className="underline hover:text-white"
+                        className="text-white hover:underline"
                       >
                         Project site
                       </a>
@@ -67,7 +67,7 @@ export default function Projects() {
                           href={project.link}
                           target="_blank"
                           rel="noreferrer"
-                          className="underline hover:text-white"
+                          className="text-white hover:underline"
                         >
                           Project code
                         </a>
