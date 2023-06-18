@@ -78,7 +78,7 @@ export default function Projects() {
               </div>
             </div>
           ))}
-          <div className="text-base leading-relaxed mx-auto p-4 text-left md:text-center">
+          <div className="text-base leading-relaxed mx-auto p-4 text-left">
             <p className="text-white pb-2">
               Other programs, organizations, and projects I have supported:
             </p>
