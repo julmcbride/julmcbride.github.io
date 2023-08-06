@@ -1,7 +1,4 @@
-import {
-  CheckCircleIcon,
-  WrenchScrewdriverIcon,
-} from "@heroicons/react/24/solid";
+import { CheckCircleIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { skills } from "../data";
 
@@ -10,7 +7,6 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="mb-5 md:text-center">
-          <WrenchScrewdriverIcon className="h-10 w-10 inline-flex text-green-600" />
           <h2 className="sm:text-4xl text-3xl font-semibold title-font text-white mb-4">
             Skills & Tools
           </h2>
