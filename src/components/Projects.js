@@ -44,7 +44,7 @@ export default function Projects() {
                       <ChartBarSquareIcon className="h-10 w-10 inline-flex text-green-600" />
                     ) : null}
                     {project.icon === "web" ? (
-                      <CommandLineIcon className="h-8 w-8 inline-flex text-green-600" />
+                      <CommandLineIcon className="h-10 w-10 inline-flex text-green-600" />
                     ) : null}{" "}
                     {project.subtitle}
                   </span>
@@ -84,10 +84,9 @@ export default function Projects() {
             </div>
           ))}
 
-          {/*<div className="text-gray-800 leading-relaxed mx-auto p-4 text-left">
+          <div className="text-gray-800">
             <h3 className="text-lg font-bold pb-2">
-              Other recent programs, organizations, and projects I have
-              supported:
+              Other programs, organizations, and projects I have supported:
             </h3>
             <p>
               U.S. Environmental Protection Agency (EPA): Environmentally
@@ -101,16 +100,16 @@ export default function Projects() {
               Waters South Atlantic Strategy Project Tracker, National Recycling
               Strategy Circular Economy Implementation Plan, Climate Change, A
               Student's Guide to Global Climate Change; U.S. Department of Labor
-              Occupational Safety and Health Administration (OSHA) ; West Coast
+              Occupational Safety and Health Administration (OSHA); West Coast
               Climate &amp; Materials Managment Forum; Airport Cooperative
-              Research Program;A Better City; PepsiCo Beverage Packaging
+              Research Program; A Better City; PepsiCo Beverage Packaging
               Sustainability Tool; Massachusetts Registry of Motor Vehicles
               Violations, Investigations and Scheduling, Information and
-              Tracking System (VISITS) ; Massachusetts Rehabilitation Commission
-              (MRC) Contracts Management Database ; Eastern Research Group, Inc.
+              Tracking System (VISITS); Massachusetts Rehabilitation Commission
+              (MRC) Contracts Management Database; Eastern Research Group, Inc.
               (ERG); Harvard Law School Program on Corporate Governance
             </p>
-                    </div>*/}
+          </div>
         </div>
       </div>
     </section>
