@@ -27,7 +27,7 @@ export default function Skills() {
             </div>
           ))}
         </div>
-        <p className="text-sm text-center text-gray-500 mx-auto mt-8">
+        <p className="text-sm text-center text-white mx-auto mt-8">
           &copy; JULIE MCBRIDE 2023
         </p>
       </div>

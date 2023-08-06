@@ -9,7 +9,7 @@ function App() {
     <div className="bg-gray-900">
       <Navbar />
       <About />
-      <Projects />
+      <Projects className="bg-white" />
       <Skills />
     </div>
   );

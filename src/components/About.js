@@ -1,19 +1,17 @@
 import React from "react";
+import { CodeBracketIcon } from "@heroicons/react/24/solid";
 
 export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white">
         <div className="lg:flex-grow md:w-3/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          {/*<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-             development
-          </h1>*/}
-
-          <h2 className="mb-8 sm:text-xl text-xl mb-4">
-            I'm a web/software developer in Boston, MA. I specialize in
-            front-end development and code primarily in JavaScript. I'm also
-            interested in full stack development and data visualization.
-          </h2>
+          <CodeBracketIcon className="h-10 w-10 inline-flex text-green-600" />{" "}
+          <p className="mb-8 sm:text-xl text-xl mb-4">
+            I'm a web/software developer in Boston, MA specializing in front-end
+            development and JavaScript. I'm also interested in full stack
+            development and data visualization.
+          </p>
           <div className="flex justify-center">
             {/*<a
               href="#contact"

@@ -12,9 +12,10 @@ export default function Projects() {
     <section id="projects" className="bg-white">
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="flex flex-col w-full mb-10">
-          <h2 className="text-4xl font-semibold title-font text-green-600">
+          <h2 className="text-4xl font-semibold title-font">
             Featured Projects
           </h2>
+          <hr className="mt-4 w-100" />
           {/*<p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left md:text-center">
             Most projects developed with{" "}
             <a
@@ -32,11 +33,10 @@ export default function Projects() {
             <div className=" w-100" key={project.name}>
               <div className="flex relative">
                 <div className="relative w-full">
-                  {/*<span className="text-sm title-font font-medium text-green-600 mb-1 text-left  border-2 border-gray-200 bg-gray-50">*/}{" "}
-                  <h2 className="text-2xl font-semibold title-font text-gray-900 mb-3 text-left">
+                  <h3 className="text-2xl font-semibold title-font text-green-600 mb-3 text-left">
                     {project.title}
-                  </h2>
-                  <span className="font-medium text-green-600 text-lg">
+                  </h3>
+                  <span className="font-semibold text-gray-900">
                     {project.icon === "calculator" ? (
                       <CalculatorIcon className="h-10 w-10 inline-flex text-green-600" />
                     ) : null}
@@ -80,9 +80,10 @@ export default function Projects() {
                   </p>
                 </div>
               </div>
-              <hr className="m-8 w-100" />
+              <hr className="mt-8 mb-8 w-100" />
             </div>
           ))}
+
           {/*<div className="text-gray-800 leading-relaxed mx-auto p-4 text-left">
             <h3 className="text-lg font-bold pb-2">
               Other recent programs, organizations, and projects I have
