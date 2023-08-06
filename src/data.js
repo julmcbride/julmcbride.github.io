@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "Climate Change Indicators in the U.S.",
-    subtitle: "JavaScript, Highcharts, Data Visualization",
+    title: "Climate Change Indicators in the United States",
+    subtitle: "Data Visualization, JavaScript, Highcharts",
     description:
-      "A project in development for the U.S. Environmental Protection Agency (EPA) which partners with over 50 data contributors to compile a key set of indicators. Developed process to dynamically build 100 charts of various types from the data to make web updates more scalable and efficient. To be integrated in EPA's website.",
+      "A project in development with the U.S. Environmental Protection Agency (EPA) which partners with over 50 data contributors to compile the indicators. Developed process to build ~100 interactive charts from the data with  Highcharts to replace the current static chart graphics and make web updates more scalable and efficient. To be integrated into EPA's Drupal website in 2023.",
     image: "",
     link: "https://www.epa.gov/climate-indicators",
     icon: "chart",
@@ -11,9 +11,9 @@ export const projects = [
   },
   {
     title: "Acute Toxicity Estimate (ATE) Calculator",
-    subtitle: "JavaScript, React, Calculator",
+    subtitle: "Calculator, JavaScript, React",
     description:
-      "A calculator app currently in testing for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for various exposure routes (oral, dermal, and inhalation routes). Developed UI components and wrote code to process input data and output results. To be integrated in OSHA's website.",
+      "A calculator tool in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for oral, dermal, and inhalation exposure routes. Developed the user interface components and wrote code to process input data and output results. To be integrated into OSHA's Drupal website in 2023.",
     image: "./oshaATE.png",
     link: "https://github.com/Eastern-Research-Group/OSHAATE",
     icon: "calculator",
@@ -21,9 +21,9 @@ export const projects = [
   },
   {
     title: "Greenhouse Gas Inventory Data Explorer",
-    subtitle: "JavaScript, Highcharts, SQL",
+    subtitle: "Data Visualization, JavaScript, Highcharts, SQL",
     description:
-      "A public data portal for EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data to dynamically build charts and tables based on user selections. Implement code improvements, new querying capabilities, and a map visualization in development to show multi-state views of the data for August 2023 release.",
+      "A public data portal for EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data to build charts and tables based on user selections. Implement code improvements and new querying capabilities. Developed map data visualizations to show multi-state views of the data to be included in September 2023 release.",
     image: "",
     link: "https://cfpub.epa.gov/ghgdata/inventoryexplorer/",
     icon: "chart",
@@ -31,30 +31,30 @@ export const projects = [
   },
   {
     title:
-      "NEWR - Non-potable Environmental and Economic Water Reuse Calculator",
-    subtitle: "JavaScript, React, Calculator",
+      "Non-potable Environmental and Economic Water Reuse Calculator (NEWR)",
+    subtitle: "Calculator, JavaScript, React",
     description:
-      "A calculator app developed for the U.S. EPA, NEWR is a tool for screening-level assessments of source water options for any urban building location across the U.S. considering non-potable reuse. Based on life cycle assessment models, developed UI components, data processing, calculations and results charts.",
+      "A calculator tool developed for the U.S. EPA, NEWR is used for screening-level assessments of source water options for any urban building location in the U.S. considering non-potable reuse. Based on life cycle assessment models, wrote code to develop user interface components, process input data, program calculations, and output results charts. Integrated into EPA's Drupal site.",
     image: "",
     link: "https://www.epa.gov/sites/default/files/widgets/newr-calculator/index.html",
     icon: "calculator",
     name: "newr",
   },
   {
-    title: "EPEAT Benefits Calculator",
-    subtitle: "JavaScript, Calculator",
+    title: "EPEAT Benefits Calculators",
+    subtitle: "Calculator, JavaScript",
     description:
-      "A calculator app for the Global Electronics Council that enables purchasers to measure and report environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle assessment models, developed the UI and input data processing to calculate/aggregate results.",
+      "A calculator tool developed with the Global Electronics Council that enables purchasers to measure and report environmental benefits gained from purchasing electronic products covered by the EPEAT ecolabel. Based on life cycle assessment models, wrote code to develop the user interface, process input data, program calculations and aggregations, and output results tables.",
     image: "",
     link: "https://epeat.net/calculators",
     icon: "calculator",
     name: "epeat",
   },
   {
-    title: "How's My Waterway",
-    subtitle: "JavaScript, React",
+    title: "How's My Waterway?",
+    subtitle: "JavaScript, React, Testing",
     description:
-      "A project with the U.S. EPA designed to provide the public with information about the condition of their local waters based on data that states, federal, tribal, local agencies and others have provided to the EPA. Supported the development team with building UI components and front-end testing.",
+      "A project with the U.S. EPA designed to provide the public with information about the condition of local waterways based on data that states, federal, tribal, local agencies and others have provided to the EPA. Supported the development team with building user interface components and end-to-end testing.",
     image: "",
     link: "https://mywaterway.epa.gov",
     icon: "web",
@@ -62,9 +62,9 @@ export const projects = [
   },
   {
     title: "Enforcement and Compliance History Online",
-    subtitle: "JavaScript, PHP, Data Visualization",
+    subtitle: "Data Visualization, JavaScript, PHP",
     description:
-      "A project with the U.S. EPA, ECHO is used to search facilities to assess compliance with environmental regulations. Translated designs to web code, implemented mobile and accessibility improvements, wrote code to process data for search forms and reports.",
+      "A project with the U.S. EPA, the ECHO application is used to search for facilities in a community to assess their compliance with environmental regulations and analyze data. Translated graphical designs to web code, wrote code to process and visualize data for search forms and reports, implemented mobile and accessibility improvements.",
     image: "",
     link: "https://echo.epa.gov/",
     icon: "chart",
@@ -72,9 +72,9 @@ export const projects = [
   },
   {
     title: "Friends of Spy Pond Park",
-    subtitle: "Website Design/Development",
+    subtitle: "Web Development",
     description:
-      "A volunteer project for a non-profit organization that supports the preservation and enhancement of Spy Pond Park and Spy Pond. Redeveloped FSPP's website to modernize the design and upgrade and improve the code for maintenance.",
+      "A volunteer project for non-profit organization that supports the preservation and enhancement of Spy Pond Park and Spy Pond. Redeveloped FSPP's website to modernize the design and upgrade and improve the code for more efficient maintenance.",
     image: "",
     link: "https://friendsofspypondpark.org/",
     icon: "web",
@@ -83,22 +83,21 @@ export const projects = [
 ];
 
 export const skills = [
-  "HTML5",
-  "CSS3",
-  "CSS Frameworks",
   "JavaScript/ES6",
   "JavaScript Libraries",
   "TypeScript",
   "React",
   "Vue",
-  "Dev Tools",
-  "Node/npm",
-  "Webpack",
-  "Vite",
-  "Cypress",
-  "Highcharts/maps",
-  "ArcGIS JavaScript",
+  "HTML5",
+  "CSS3",
+  "CSS Frameworks",
+  "Node.js/npm",
   "Git/GitHub",
+  "Build Tools",
+  "Dev Tools",
+  "Cypress",
+  "Highcharts",
+  "ArcGIS JavaScript",
   "Visual Studio Code",
   "Python",
   "PHP",
@@ -106,9 +105,9 @@ export const skills = [
   "Drupal",
   "WordPress",
   "Data Visualization",
-  "UI/UX",
   "Web Accessibility",
-  "Adobe Creative",
-  "Microsoft Office 365",
+  //"UI/UX",
+  //"Adobe Creative",
+  //"Microsoft Office 365",
   "Agile/Scrum (CSM)",
 ];

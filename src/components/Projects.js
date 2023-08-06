@@ -1,7 +1,7 @@
 import {
   CalculatorIcon,
   ChartBarSquareIcon,
-  ComputerDesktopIcon,
+  CommandLineIcon,
 } from "@heroicons/react/24/solid";
 
 import React from "react";
@@ -9,12 +9,12 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="bg-white">
       <div className="container px-5 py-10 mx-auto lg:px-40">
         <div className="flex flex-col w-full mb-10">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white md:text-center">
+          <h2 className="text-4xl font-semibold title-font text-green-600">
             Featured Projects
-          </h1>
+          </h2>
           {/*<p className="lg:w-2/3 mx-auto leading-relaxed text-base text-left md:text-center">
             Most projects developed with{" "}
             <a
@@ -27,30 +27,30 @@ export default function Projects() {
             </a>.
   </p>*/}
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap">
           {projects.map((project) => (
-            <div className="md:w-1/2 w-100 p-4" key={project.name}>
+            <div className=" w-100" key={project.name}>
               <div className="flex relative">
-                <div className="px-4 py-5 relative w-full border-4 border-gray-800 bg-gray-900">
-                  {" "}
-                  {project.icon === "calculator" ? (
-                    <CalculatorIcon className="h-20 w-20  mx-auto" />
-                  ) : null}
-                  {project.icon === "chart" ? (
-                    <ChartBarSquareIcon className="h-20 w-20  mx-auto" />
-                  ) : null}
-                  {project.icon === "web" ? (
-                    <ComputerDesktopIcon className="h-20 w-20  mx-auto" />
-                  ) : null}
-                  <br />
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1 text-left">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3 text-left">
+                <div className="relative w-full">
+                  {/*<span className="text-sm title-font font-medium text-green-600 mb-1 text-left  border-2 border-gray-200 bg-gray-50">*/}{" "}
+                  <h2 className="text-2xl font-semibold title-font text-gray-900 mb-3 text-left">
                     {project.title}
-                  </h1>
+                  </h2>
+                  <span className="font-medium text-green-600 text-lg">
+                    {project.icon === "calculator" ? (
+                      <CalculatorIcon className="h-10 w-10 inline-flex text-green-600" />
+                    ) : null}
+                    {project.icon === "chart" ? (
+                      <ChartBarSquareIcon className="h-10 w-10 inline-flex text-green-600" />
+                    ) : null}
+                    {project.icon === "web" ? (
+                      <CommandLineIcon className="h-8 w-8 inline-flex text-green-600" />
+                    ) : null}{" "}
+                    {project.subtitle}
+                  </span>
                   <p className="leading-relaxed text-left">
-                    {project.description}{" "}
+                    {project.description}
+
                     {project.name !== "oshaate" && project.link !== "" && (
                       <>
                         <br />{" "}
@@ -58,7 +58,7 @@ export default function Projects() {
                           href={project.link}
                           target="_blank"
                           rel="noreferrer"
-                          className="text-white hover:underline"
+                          className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-400 rounded text-lg"
                         >
                           Project site
                         </a>
@@ -71,7 +71,7 @@ export default function Projects() {
                           href={project.link}
                           target="_blank"
                           rel="noreferrer"
-                          className="text-white hover:underline"
+                          className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-400 rounded text-lg"
                         >
                           Project code
                         </a>
@@ -80,12 +80,14 @@ export default function Projects() {
                   </p>
                 </div>
               </div>
+              <hr className="m-8 w-100" />
             </div>
           ))}
-          <div className="text-base leading-relaxed mx-auto p-4 text-left">
-            <p className="text-white pb-2">
-              Other programs, organizations, and projects I have supported:
-            </p>
+          {/*<div className="text-gray-800 leading-relaxed mx-auto p-4 text-left">
+            <h3 className="text-lg font-bold pb-2">
+              Other recent programs, organizations, and projects I have
+              supported:
+            </h3>
             <p>
               U.S. Environmental Protection Agency (EPA): Environmentally
               Preferable Purchasing (EPP) Program, Report on the Environment,
@@ -98,16 +100,16 @@ export default function Projects() {
               Waters South Atlantic Strategy Project Tracker, National Recycling
               Strategy Circular Economy Implementation Plan, Climate Change, A
               Student's Guide to Global Climate Change; U.S. Department of Labor
-              Occupational Safety and Health Administration (OSHA); West Coast
+              Occupational Safety and Health Administration (OSHA) ; West Coast
               Climate &amp; Materials Managment Forum; Airport Cooperative
-              Research Program; A Better City; PepsiCo Beverage Packaging
+              Research Program;A Better City; PepsiCo Beverage Packaging
               Sustainability Tool; Massachusetts Registry of Motor Vehicles
               Violations, Investigations and Scheduling, Information and
-              Tracking System (VISITS); Massachusetts Rehabilitation Commission
-              (MRC) Contracts Management Database; Eastern Research Group, Inc.
+              Tracking System (VISITS) ; Massachusetts Rehabilitation Commission
+              (MRC) Contracts Management Database ; Eastern Research Group, Inc.
               (ERG); Harvard Law School Program on Corporate Governance
             </p>
-          </div>
+                    </div>*/}
         </div>
       </div>
     </section>

@@ -1,4 +1,7 @@
-import { CheckCircleIcon } from "@heroicons/react/24/solid";
+import {
+  CheckCircleIcon,
+  WrenchScrewdriverIcon,
+} from "@heroicons/react/24/solid";
 import React from "react";
 import { skills } from "../data";
 
@@ -7,13 +10,10 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="mb-5 md:text-center">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 md:text-center">
-            Skills &amp; Tools
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-left md:text-center">
-            Some of the skills and tools I've worked with - an ever evolving
-            list!
-          </p>
+          <WrenchScrewdriverIcon className="h-10 w-10 inline-flex text-green-600" />
+          <h2 className="sm:text-4xl text-3xl font-semibold title-font text-white mb-4">
+            Skills & Tools
+          </h2>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
