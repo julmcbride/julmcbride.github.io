@@ -34,9 +34,6 @@ export default function Projects() {
               <div className="flex relative">
                 <div className="relative w-full">
                   <h3 className="text-2xl font-semibold title-font text-green-600 mb-3 text-left">
-                    {project.title}
-                  </h3>
-                  <span className="font-semibold text-gray-900">
                     {project.icon === "calculator" ? (
                       <CalculatorIcon className="h-10 w-10 inline-flex text-green-600" />
                     ) : null}
@@ -46,10 +43,15 @@ export default function Projects() {
                     {project.icon === "web" ? (
                       <CommandLineIcon className="h-10 w-10 inline-flex text-green-600" />
                     ) : null}{" "}
-                    {project.subtitle}
-                  </span>
+                    {project.title}
+                  </h3>
+
                   <p className="leading-relaxed text-left">
                     {project.description}
+
+                    <div className="font-semibold text-2lg text-gray-900 mt-2">
+                      {project.subtitle}
+                    </div>
 
                     {project.name !== "oshaate" && project.link !== "" && (
                       <>
@@ -58,7 +60,7 @@ export default function Projects() {
                           href={project.link}
                           target="_blank"
                           rel="noreferrer"
-                          className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-400 rounded text-lg"
+                          className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg"
                         >
                           Project site
                         </a>
@@ -71,7 +73,7 @@ export default function Projects() {
                           href={project.link}
                           target="_blank"
                           rel="noreferrer"
-                          className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 mt-4 focus:outline-none hover:bg-green-400 rounded text-lg"
+                          className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg"
                         >
                           Project code
                         </a>

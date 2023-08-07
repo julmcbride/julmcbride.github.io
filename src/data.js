@@ -3,7 +3,7 @@ export const projects = [
     title: "Climate Change Indicators in the United States",
     subtitle: "Data Visualization, JavaScript, Highcharts",
     description:
-      "A project in development with the U.S. Environmental Protection Agency (EPA) which partners with over 50 data contributors to compile the indicators. Developed process to build ~100 interactive charts from the data with  Highcharts to replace the current static chart graphics and make web updates more scalable and efficient. To be integrated into EPA's Drupal website in 2023.",
+      "A project in development with the U.S. Environmental Protection Agency (EPA) which partners with over 50 data contributors to compile the indicators. Developed process to build ~100 interactive charts from the data with  Highcharts to replace static chart graphics and make web updates more scalable and efficient. To be integrated into EPA's Drupal website in late 2023.",
     image: "",
     link: "https://www.epa.gov/climate-indicators",
     icon: "chart",
@@ -13,7 +13,7 @@ export const projects = [
     title: "Acute Toxicity Estimate (ATE) Calculator",
     subtitle: "Calculator, JavaScript, React",
     description:
-      "A calculator tool in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for oral, dermal, and inhalation exposure routes. Developed the user interface components and wrote code to process input data and output results. To be integrated into OSHA's Drupal website in 2023.",
+      "A calculator tool in development for the Occupational Safety and Health Administration (OSHA) that calculates acute toxicity estimate for oral, dermal, and inhalation exposure routes. Developed the user interface components and wrote code to process input data and output results. To be integrated into OSHA's Drupal website in late 2023.",
     image: "./oshaATE.png",
     link: "https://github.com/Eastern-Research-Group/OSHAATE",
     icon: "calculator",
@@ -23,7 +23,7 @@ export const projects = [
     title: "Greenhouse Gas Inventory Data Explorer",
     subtitle: "Data Visualization, JavaScript, Highcharts, SQL",
     description:
-      "A public data portal for EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data to build charts and tables based on user selections. Implement code improvements and new querying capabilities. Developed map data visualizations to show multi-state views of the data to be included in September 2023 release.",
+      "A public data portal for EPA's annual Inventory of U.S. Greenhouse Gas Emissions and Sinks. Wrote code to query national and state data to build charts and tables based on user selections. Implement code improvements and new querying capabilities. Developed map data visualizations feature to show multi-state views of the data to be included in September 2023 release.",
     image: "",
     link: "https://cfpub.epa.gov/ghgdata/inventoryexplorer/",
     icon: "chart",
@@ -62,9 +62,9 @@ export const projects = [
   },
   {
     title: "Enforcement and Compliance History Online",
-    subtitle: "Data Visualization, JavaScript, PHP",
+    subtitle: "Data Visualization, JavaScript, Drupal, PHP",
     description:
-      "A project with the U.S. EPA, the ECHO application is used to search for facilities in a community to assess their compliance with environmental regulations and analyze data. Translated graphical designs to web code, wrote code to process and visualize data for search forms and reports, implemented mobile and accessibility improvements.",
+      "A project with the U.S. EPA, ECHO is used to search for facilities in a community to assess their compliance with environmental regulations and analyze data. Translated graphic designs to web code and wrote code to process and visualize data for search forms and reports; implemented mobile and accessibility code improvements; configured Drupal themes and modules.",
     image: "",
     link: "https://echo.epa.gov/",
     icon: "chart",

@@ -7,8 +7,8 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text-white">
         <div className="lg:flex-grow md:w-3/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <CodeBracketIcon className="h-10 w-10 inline-flex text-green-600" />{" "}
-          <p className="mb-8 sm:text-xl text-xl mb-4">
-            I'm a web/software developer in Boston, MA specializing in front-end
+          <p className="mb-8 md:text-xl">
+            I'm a web/software developer in Boston specializing in front-end
             development and JavaScript. I'm also interested in full stack
             development and data visualization.
           </p>
@@ -24,7 +24,7 @@ export default function About() {
               //className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
               className="inline-flex text-black font-semibold bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-400 rounded text-lg"
             >
-              Projects
+              Project Portfolio
             </a>
           </div>
         </div>
