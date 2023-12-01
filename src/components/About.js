@@ -8,8 +8,8 @@ export default function About() {
         <div className="lg:flex-grow md:w-3/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <CodeBracketIcon className="h-10 w-10 inline-flex text-green-600" />{" "}
           <p className="mb-8 md:text-xl">
-            I'm a web/software developer in Boston specializing in front-end
-            development and JavaScript. I'm also interested in full stack
+            I'm a web/software developer in Boston specializing in JavaScript
+            and front-end development. I'm also interested in full stack
             development and data visualization.
           </p>
           <div className="flex justify-center">

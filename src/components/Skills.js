@@ -8,7 +8,7 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="mb-5 md:text-center">
           <h2 className="sm:text-4xl text-3xl font-semibold title-font text-white mb-4">
-            Skills & Tools
+            Skills
           </h2>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
