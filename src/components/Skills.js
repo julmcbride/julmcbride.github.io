@@ -24,7 +24,7 @@ export default function Skills() {
           ))}
         </div>
         <p className="text-sm text-center text-white mx-auto mt-8">
-          &copy; JULIE MCBRIDE 2023
+          &copy; JULIE MCBRIDE 2024
         </p>
       </div>
     </section>
